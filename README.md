@@ -118,4 +118,6 @@ Cron key'i Admin → Dizi Yönetimi → Ayarlar kısmından özelleştirebilirsi
 
 ## 📝 Lisans
 
-GNU GPLv3
+Lisans: GNU GPLv3
+
+Geliştirici: [elegance/dlehub.com.tr]
