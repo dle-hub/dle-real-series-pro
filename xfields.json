@@ -1,0 +1,378 @@
+{
+    "fields": {
+        "series_tmdb_id": {
+            "name": "series_tmdb_id",
+            "description": "Sistem: TMDB ID (Dokunmayın)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "imdb_id": {
+            "name": "imdb_id",
+            "description": "IMDB ID",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "original_name": {
+            "name": "original_name",
+            "description": "Orijinal Başlık",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "title": {
+            "name": "title",
+            "description": "Türkçe Başlık",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "tagline": {
+            "name": "tagline",
+            "description": "Slogan",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "year": {
+            "name": "year",
+            "description": "Yapım Yılı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "first_air_date": {
+            "name": "first_air_date",
+            "description": "İlk Yayın Tarihi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "last_air_date": {
+            "name": "last_air_date",
+            "description": "Son Yayın Tarihi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "runtime": {
+            "name": "runtime",
+            "description": "Süre (dakika)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "vote_average": {
+            "name": "vote_average",
+            "description": "TMDB Puanı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "vote_count": {
+            "name": "vote_count",
+            "description": "TMDB Oy Sayısı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "imdb_rating": {
+            "name": "imdb_rating",
+            "description": "IMDb Puanı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "popularity": {
+            "name": "popularity",
+            "description": "Popülerlik",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "genres": {
+            "name": "genres",
+            "description": "Türler",
+            "type": "text",
+            "default": "",
+            "not_required": 1,
+            "use_as_links": 1
+        },
+        "cast": {
+            "name": "cast",
+            "description": "Oyuncular",
+            "type": "textarea",
+            "default": "",
+            "not_required": 1
+        },
+        "created_by": {
+            "name": "created_by",
+            "description": "Yaratıcı / Yönetmen",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "poster_path": {
+            "name": "poster_path",
+            "description": "Afiş (Poster)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "backdrop_path": {
+            "name": "backdrop_path",
+            "description": "Arka Plan (Backdrop)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "logo_path": {
+            "name": "logo_path",
+            "description": "Logo (Clearart)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "trailer_url": {
+            "name": "trailer_url",
+            "description": "Fragman URL",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "trailer_embed": {
+            "name": "trailer_embed",
+            "description": "Fragman Embed",
+            "type": "textarea",
+            "default": "",
+            "not_required": 1
+        },
+        "tv_type": {
+            "name": "tv_type",
+            "description": "Dizi Tipi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "status": {
+            "name": "status",
+            "description": "Durum",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "number_of_seasons": {
+            "name": "number_of_seasons",
+            "description": "Toplam Sezon",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "number_of_episodes": {
+            "name": "number_of_episodes",
+            "description": "Toplam Bölüm",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "networks": {
+            "name": "networks",
+            "description": "Yayıncı Kanal",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "production_companies": {
+            "name": "production_companies",
+            "description": "Yapım Şirketleri",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "production_countries": {
+            "name": "production_countries",
+            "description": "Üretim Ülkeleri",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "origin_country": {
+            "name": "origin_country",
+            "description": "Menşei Ülke",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "languages": {
+            "name": "languages",
+            "description": "Diller",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "spoken_languages": {
+            "name": "spoken_languages",
+            "description": "Konuşulan Diller",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "homepage": {
+            "name": "homepage",
+            "description": "Web Sitesi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "age_limit": {
+            "name": "age_limit",
+            "description": "Yaş Sınırı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "adult": {
+            "name": "adult",
+            "description": "Yetişkin İçerik (+18)",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "next_episode_to_air": {
+            "name": "next_episode_to_air",
+            "description": "Sonraki Bölüm",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "last_episode_to_air": {
+            "name": "last_episode_to_air",
+            "description": "Son Yayınlanan Bölüm",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "season_poster": {
+            "name": "season_poster",
+            "description": "Sezon Afişi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "season_year": {
+            "name": "season_year",
+            "description": "Sezon Yılı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "season_overview": {
+            "name": "season_overview",
+            "description": "Sezon Özeti",
+            "type": "textarea",
+            "default": "",
+            "not_required": 1
+        },
+        "season_episode_count": {
+            "name": "season_episode_count",
+            "description": "Sezondaki Bölüm Sayısı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "season_vote_average": {
+            "name": "season_vote_average",
+            "description": "Sezon Puanı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "episode_image": {
+            "name": "episode_image",
+            "description": "Bölüm Resmi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "episode_name": {
+            "name": "episode_name",
+            "description": "Bölüm Adı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "episode_year": {
+            "name": "episode_year",
+            "description": "Bölüm Yılı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "episode_vote": {
+            "name": "episode_vote",
+            "description": "Bölüm Puanı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "ep_vote_count": {
+            "name": "ep_vote_count",
+            "description": "Bölüm Oy Sayısı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "ep_guest_stars": {
+            "name": "ep_guest_stars",
+            "description": "Misafir Oyuncular",
+            "type": "textarea",
+            "default": "",
+            "not_required": 1
+        },
+        "ep_crew": {
+            "name": "ep_crew",
+            "description": "Bölüm Ekibi (Yönetmen vb)",
+            "type": "textarea",
+            "default": "",
+            "not_required": 1
+        },
+        "ep_production_code": {
+            "name": "ep_production_code",
+            "description": "Yapım Kodu",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "ep_runtime": {
+            "name": "ep_runtime",
+            "description": "Bölüm Süresi",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "watch_providers_tr": {
+            "name": "watch_providers_tr",
+            "description": "İzleme Sağlayıcıları",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "player": {
+            "name": "player",
+            "description": "Video Oynatıcı",
+            "type": "text",
+            "default": "",
+            "not_required": 1
+        },
+        "kalite": {
+            "name": "kalite",
+            "description": "Video Kalite",
+            "type": "select",
+            "default": "FullHD\n1080p\n720p\n480p\n240p",
+            "not_required": 1,
+            "use_as_links": 1
+        }
+    },
+    "groups": []
+}
